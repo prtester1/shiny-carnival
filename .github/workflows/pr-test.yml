@@ -8,8 +8,5 @@ jobs:
   check-pr-title:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the code
-        uses: actions/checkout@v3
-
       - name: Get PR Title
         run: echo "Pull Request Title ${{ github.event.pull_request.title }} "
