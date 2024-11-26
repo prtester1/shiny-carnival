@@ -13,4 +13,3 @@ jobs:
 
       - name: Get PR Title
         run: echo "Pull Request Title: ${{ github.event.pull_request.title }}"
-
